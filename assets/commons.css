@@ -5,3 +5,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: white;
+}
+
+.sc-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* debug */
+.debug{
+    background-color: rgba(255, 127, 80, 0.5);
+    border: 1px solid black;
+}
+
+/* utilities */
+.sc-d-flex{
+    display: flex;
+}
+
+.sc-justify-content-between{
+    justify-content: space-between;
+}
+
+.sc-align-items-center{
+    align-items: center;
+}
+
+/* style removal */
+.sc-ul-removal{
+    list-style: none;
+}
+
+.sc-a-removal{
+    text-decoration: none;
+}
+
+.sc-a-color{
+    color: white;
+}
+
+/* color */
+h2.sc-h2-odd{
+    color: black;
+}
