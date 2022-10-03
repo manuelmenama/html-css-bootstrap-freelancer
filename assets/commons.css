@@ -51,3 +51,13 @@ body{
 h2.sc-h2-odd{
     color: black;
 }
+
+/* button */
+.button{
+    display: inline-block;
+    border: 1px solid white;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    line-height: 30px;
+}
