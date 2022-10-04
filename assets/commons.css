@@ -64,3 +64,8 @@ h2.sc-h2-odd{
     border-radius: 5px;
     line-height: 30px;
 }
+
+/* decoration */
+.sc-border{
+    border-bottom: 3px solid white;
+}
