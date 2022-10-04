@@ -61,6 +61,13 @@ body{
     color: white;
 }
 
+.overlay-effect:hover{
+    filter: opacity(.5);
+}
+
+.sc-bg{
+    background-color: rgb(26, 188, 156);;
+}
 
 /* color */
 h2.sc-h2-odd{
