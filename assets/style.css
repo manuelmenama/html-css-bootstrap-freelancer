@@ -5,25 +5,21 @@ header{
 
 .jumbotron{
     background-color: rgb(26, 188, 156);
-    height: 500px;
 }
 
-/* .img{
-    background-color: blueviolet;
-    width: 300px;
-    height: 300px;
-} */
-
-.sc-col-color{
-    background-color: chocolate;
-
-    /* debug */
-    height: 150px;
-    border: 1px dashed black;
+/* portfolio section */
+#portfolio{
+    color: black;
 }
 
+/* about section */
 #about{
     background-color: rgb(26, 188, 156);
+}
+
+/* contact section */
+#contact-form{
+    color: black;
 }
 
 #footer-top{

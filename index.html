@@ -23,8 +23,7 @@
         <nav class="navbar navbar-expand-lg w-100">
             <div class="container-fluid">
               <a class="navbar-brand sc-a-color" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <i role="button" class="bi bi-list d-lg-none display-4"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
@@ -46,51 +45,80 @@
 
     <main>
 
-        <div class="jumbotron">
-            <div class="container d-flex flex-column align-items-center debug text-center pt-5">
+        <div class="jumbotron pb-5 p-md-5">
+            <div class="container p-4">
                 <div class="row">
                     <div class="col-6 offset-3">
-                        <img src="assets/img/avatar.svg" class="img-thumbnail" alt="avatar">
-                    </div>
-                    <div class="container text-center">
-                        <h1>START BOOTSTRAP</h1>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-3 offset-2 sc-border  mb-3"></div>
-                                <div class="col-2">
-                                    <i class="sc-icon bi bi-star-fill display-6"></i>
-                                </div>
-                                <div class="col-3 sc-border mb-3"></div>
-                            </div>
-                        </div>
-                        <h3>GRAPHIC ARTIST - WEB DESINER - ILLUSTRATOR</h3>
+                        <img src="assets/img/avatar.svg" class="img-fluid" alt="avatar">
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container text-center">
-            <h2 class="sc-h2-odd">PORTFOLIO</h2>
-            <hr>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-                <div class="col-md-6 col-lg-4 sc-col-color"></div>
-            </div>
-        </div>
-
-        <section id="about">
             <div class="container text-center">
-                <h2 class="sc-h2-odd">PORTFOLIO</h2>
-                <hr>
+                <h1>START BOOTSTRAP</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 offset-2 sc-border  mb-3"></div>
+                        <div class="col-2">
+                            <i class="sc-icon bi bi-star-fill display-6"></i>
+                        </div>
+                        <div class="col-3 sc-border mb-3"></div>
+                    </div>
+                </div>
+                <h3>GRAPHIC ARTIST - WEB DESINER - ILLUSTRATOR</h3>
             </div>
-            <div class="container debug">
+        </div>
+        <section id="portfolio" class="py-5 p-md-5">
+            <div class="container text-center">
+                <h2>PORTFOLIO</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 offset-2 sc-border-alt  mb-3"></div>
+                        <div class="col-2">
+                            <i class="sc-icon bi bi-star-fill display-6"></i>
+                        </div>
+                        <div class="col-3 sc-border-alt mb-3"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 sc-col-color p-3">
+                        <img src="assets/img/cabin.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4 sc-col-color  p-3">
+                        <img src="assets/img/cake.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4 sc-col-color p-3">
+                        <img src="assets/img/circus.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4 sc-col-color  p-3">
+                        <img src="assets/img/game.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4 sc-col-color  p-3">
+                        <img src="assets/img/safe.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4 sc-col-color p-3">
+                        <img src="assets/img/submarine.png" class="rounded img-fluid" alt="cabin">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 p-md-5">
+            <div class="container text-center pb-3">
+                <h2>ABOUT</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 offset-3 sc-border  mb-3"></div>
+                        <div class="col-2">
+                            <i class="sc-icon bi bi-star-fill display-6"></i>
+                        </div>
+                        <div class="col-2 sc-border mb-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
                 <div class="row">
                     <div class="col-md-4 offset-md-2">
                         <p>
@@ -104,34 +132,37 @@
                     </div>
                 </div>
                 <div class="container text-center">
-                    <a class="button sc-a-removal sc-a-color" href="#">Download</a>
+                    <a href="#" class="btn btn-outline-light">
+                        <i class="bi bi-download"></i>
+                        <span>Download</span>
+                    </a>
+
                 </div>
             </div>
 
         </section>
-        <section id="contact-form">
-            <div class="container text-center">
-                <h2 class="sc-h2-odd">CONTACT ME</h2>
-                <hr>
+        <section id="contact-form" class="py-5 p-md-5">
+            <div class="container text-center pb-3">
+                <h2>CONTACT ME</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 offset-3 sc-border-alt  mb-3"></div>
+                        <div class="col-2">
+                            <i class="sc-icon bi bi-star-fill display-6"></i>
+                        </div>
+                        <div class="col-2 sc-border-alt mb-3"></div>
+                    </div>
+                </div>
             </div>
-            <div class="container debug">
-                <div class="col-8 offset-2 debug">
-                    <div class="name debug">
-                        <p>Name</p>
-                    </div>
-                    <div class="email">
-                        <p>Email</p>
-                    </div>
-                    <div class="phone">
-                        <p>Phone Number</p>
-                    </div>
-                    <div class="message">
-                        <p>Message</p>
-                    </div>
-                    <div class="button">
-                        <p>
-                            Send
-                        </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 offset-2">
+                        <input class="form-control sc-imput-removal" type="text" placeholder="Name" aria-label="default input example">
+                        <input class="form-control sc-imput-removal" type="text" placeholder="E-mail Address" aria-label="default input example">
+                        <input class="form-control sc-imput-removal" type="text" placeholder="Phone Number" aria-label="default input example">
+                        <textarea class="form-control sc-imput-removal" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="button" class="btn btn-primary sc-button-color mt-3">Send</button>
+    
                     </div>
                 </div>
             </div>
@@ -140,7 +171,7 @@
     </main>
 
     <footer>
-        <section id="footer-top">
+        <section id="footer-top" class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 text-center">
@@ -165,7 +196,7 @@
                 </div>
             </div>
         </section>
-        <section id="footer-bottom">
+        <section id="footer-bottom" class="py-5">
             <div class="container text-center">
                 <p>Lorem ipsum dolor sit.</p>
             </div>
