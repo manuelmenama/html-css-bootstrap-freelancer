@@ -1,41 +1,10 @@
-
-body{
-    color: white;
-}
-
-.sc-container{
-    width: 70%;
-    margin: 0 auto;
-}
-
 /* debug */
 .debug{
     background-color: rgba(255, 127, 80, 0.5);
     border: 1px solid black;
 }
 
-/* utilities */
-.sc-d-flex{
-    display: flex;
-}
-
-.sc-justify-content-between{
-    justify-content: space-between;
-}
-
-.sc-align-items-center{
-    align-items: center;
-}
-
 /* style removal */
-.sc-ul-removal{
-    list-style: none;
-}
-
-.sc-a-removal{
-    text-decoration: none;
-}
-
 .sc-a-color{
     color: white;
 }
@@ -70,22 +39,7 @@ body{
 }
 
 .sc-bg{
-    background-color: rgb(26, 188, 156);;
-}
-
-/* color */
-h2.sc-h2-odd{
-    color: black;
-}
-
-/* button */
-.button{
-    display: inline-block;
-    border: 1px solid white;
-    height: 30px;
-    padding: 0 10px;
-    border-radius: 5px;
-    line-height: 30px;
+    background-color: rgb(26, 188, 156);
 }
 
 /* decoration */
