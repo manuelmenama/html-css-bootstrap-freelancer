@@ -44,11 +44,11 @@
 
 /* decoration */
 .sc-border{
-    border-bottom: 3px solid white;
+    border-bottom: 4px solid white;
 }
 
 .sc-border-alt{
-    border-bottom: 3px solid black;
+    border-bottom: 4px solid rgb(44, 62, 80);
 }
 
 .sc-button-color{
